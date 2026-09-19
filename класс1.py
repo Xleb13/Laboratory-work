@@ -1,5 +1,5 @@
 import random
-# Нужно сделать случайные числа от 1 до 10
+
 # Компьютер загадывает случайное число от 1 to 5
 secret_number = random.randint(1, 5)
 attempts = 0
