@@ -1,10 +1,18 @@
 import random
 
+<<<<<<< Updated upstream
 # Компьютер загадывает случайное число от 1 to 20
 secret_number = random.randint(1, 20)
 attempts = 0
 
 print("🎯 Я загадал число от 1 до 20. Попробуй угадать его!")
+=======
+# Компьютер загадывает случайное число от 1 to 4
+secret_number = random.randint(1, 4)
+attempts = 0
+
+print("🎯 Я загадал число от 1 до 4. Попробуй угадать его!")
+>>>>>>> Stashed changes
 
 # Цикл продолжается, пока игрок не угадает
 while True:
